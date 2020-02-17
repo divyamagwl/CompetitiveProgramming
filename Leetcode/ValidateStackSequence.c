@@ -3,6 +3,8 @@
 #include<stdbool.h>
 #define MAX 100000
 
+// Q- https://leetcode.com/problems/validate-stack-sequences/
+
 bool validateStackSequences(int* pushed, int pushedSize, int* popped, int poppedSize)
 {
     int top = -1;
